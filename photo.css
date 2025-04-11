@@ -1,0 +1,17 @@
+.image-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-image {
+    max-width: 300px;
+    border-radius: 5px;
+    border: 2px solid var(--vscode-blue);
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.profile-image:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}

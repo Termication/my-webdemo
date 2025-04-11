@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karabo Mohlala - VS Code Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="photo.css">
 </head>
 <body>
     <div class="sidebar">
@@ -22,6 +23,7 @@
             <div class="tab active" onclick="showTab('about')">about.txt</div>
             <div class="tab" onclick="showTab('education')">education.md</div>
             <div class="tab" onclick="showTab('skills')">skills.json</div>
+            <div class="tab" onclick="showTab('profile')">profile.jpg</div>
         </div>
 
         <!-- About Tab -->
@@ -49,28 +51,26 @@
             <span class="comment">// Education</span>
             <div class="section">
                 <div class="keyword">2023-2025:</div>
-                <div class="string">University of South Africa - Bachelor of Computer Science And Mathematics (Ongoing)</div>
+                <div class="string">BITS PILANI - Bachelor of Computer Science And Mathematics (Ongoing)</div>
                 
                 <div class="keyword">2024:</div>
                 <div class="string">ALX Software Engineering Programme (Completed)</div>
                 
-                <div class="keyword">2018-2021:</div>
-                <div class="string">University of Limpopo - Bachelor of Nursing Science (Completed)</div>
             </div>
 
             <span class="comment">// Skills</span>
             <div class="section">
                 <div class="keyword">Development:</div>
-                <div class="string">Flask, Bootstrap, Tailwind, JavaScript, TypeScript, React, Node.js, HTML</div>
+                <div class="string">Flask, Sqlite, mySql,  MongoDB, Bootstrap, Tailwind, JavaScript, TypeScript, React, Node.js and HTML</div>
                 
                 <div class="keyword">DevOps:</div>
-                <div class="string">Bash, Docker, GitHub</div>
+                <div class="string">Bash, Docker and GitHub</div>
                 
                 <div class="keyword">Design:</div>
                 <div class="string">Graphic Design, UI/UX Principles</div>
                 
                 <div class="keyword">Office:</div>
-                <div class="string">MS Word, Excel, Access, PowerPoint</div>
+                <div class="string">MS Word, Excel, Access and PowerPoint</div>
             </div>
 
             <span class="comment">// Core Competencies</span>
@@ -110,22 +110,31 @@
             <div class="json-key">"Design":</div>
             <div class="json-value">["Graphic Design", "UI/UX Principles"]</div>
         </div>
+
+        <div id="profile" class="code-block">
+            <div class="image-container">
+                <img src="photo.jpg" alt="Innocent Mohlala" class="profile-image">
+                <div class="comment">// Profile Picture</div>
+            </div>
+        </div>
+
+        <div class="terminal">
+            <div class="terminal-header">TERMINAL</div>
+            <div>$ Personal Details:</div>
+            <div>├─ Nationality: South African</div>
+            <div>├─ DOB: 1997/06/03</div>
+            <div>└─ Languages: English, Sepedi</div>
+            <div>└─ GitHub: [https://github.com/Termication]</div>
+    
+            <div>$ Core Competencies:</div>
+            <div>├─ Critical Thinking | Problem Solving</div>
+            <div>├─ Team Collaboration | Leadership</div>
+            <div>└─ Agile Development | Time Management</div>
+        </div>
+    
+
     </div>
-
-    <div class="terminal">
-        <div class="terminal-header">TERMINAL</div>
-        <div>$ Personal Details:</div>
-        <div>├─ Nationality: South African</div>
-        <div>├─ DOB: 1997/06/03</div>
-        <div>└─ Languages: English, Sepedi</div>
-        <div>└─ GitHub: [https://github.com/Termication]</div>
-
-        <div>$ Core Competencies:</div>
-        <div>├─ Critical Thinking | Problem Solving</div>
-        <div>├─ Team Collaboration | Leadership</div>
-        <div>└─ Agile Development | Time Management</div>
-    </div>
-
+    
     <script>
         function showTab(tabName) {
             // Hide all tabs and content
