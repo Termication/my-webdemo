@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karabo Mohlala - VS Code Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">EXPLORER</div>
+        <div class="code-block active">
+            <div class="keyword">INNOCENT KARABO MOHLALA</div>
+            <div class="string">📍 Kaalfontein Ext 1, Midrand</div>
+            <div class="string">📞 +27848857295</div>
+            <div class="string">📧 terminalkarabo@gmail.com</div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="tab-bar">
+            <div class="tab active" onclick="showTab('about')">about.txt</div>
+            <div class="tab" onclick="showTab('education')">education.md</div>
+            <div class="tab" onclick="showTab('skills')">skills.json</div>
+        </div>
+
+        <!-- About Tab -->
+        <div id="about" class="code-block active">
+            <span class="comment">// Personal Details</span>
+            <div class="section">
+                <div class="keyword">Name:</div>
+                <div class="string">Innocent Karabo Mohlala</div>
+                
+                <div class="keyword">Address:</div>
+                <div class="string">House No 430, Kaalfontein Ext 1, Midrand, 1682</div>
+                
+                <div class="keyword">DOB:</div>
+                <div class="string">1997/06/03</div>
+                
+                <div class="keyword">Nationality:</div>
+                <div class="string">South African</div>
+            </div>
+
+            <span class="comment">// Professional Summary</span>
+            <div class="section">
+                <div class="string">"I am always ready to work under pressure and deliver the best quality if not perfection. I believe in working with others to share and receive better ideas in order to be empowered. I am always ready and willing to learn new things as I am inquisitive, multi-talented, and goal-oriented."</div>
+            </div>
+
+            <span class="comment">// Education</span>
+            <div class="section">
+                <div class="keyword">2023-2025:</div>
+                <div class="string">University of South Africa - Bachelor of Computer Science And Mathematics (Ongoing)</div>
+                
+                <div class="keyword">2024:</div>
+                <div class="string">ALX Software Engineering Programme (Completed)</div>
+                
+                <div class="keyword">2018-2021:</div>
+                <div class="string">University of Limpopo - Bachelor of Nursing Science (Completed)</div>
+            </div>
+
+            <span class="comment">// Skills</span>
+            <div class="section">
+                <div class="keyword">Development:</div>
+                <div class="string">Flask, Bootstrap, Tailwind, JavaScript, TypeScript, React, Node.js, HTML</div>
+                
+                <div class="keyword">DevOps:</div>
+                <div class="string">Bash, Docker, GitHub</div>
+                
+                <div class="keyword">Design:</div>
+                <div class="string">Graphic Design, UI/UX Principles</div>
+                
+                <div class="keyword">Office:</div>
+                <div class="string">MS Word, Excel, Access, PowerPoint</div>
+            </div>
+
+            <span class="comment">// Core Competencies</span>
+            <div class="section">
+                <div class="string">✔️ Intuitive and flexible</div>
+                <div class="string">✔️ Effective communication & teamwork</div>
+                <div class="string">✔️ Critical thinking & problem solving</div>
+                <div class="string">✔️ Time management & goal achievement</div>
+            </div>
+        </div>
+
+        <!-- Education Tab -->
+        <div id="education" class="code-block">
+            <span class="comment">// Education History</span>
+            <div class="keyword">2023-2025:</div>
+            <div class="string">UNISA - BSc Computer Science & Mathematics</div>
+            
+            <div class="keyword">2024:</div>
+            <div class="string">ALX Software Engineering (Completed)</div>
+            
+            <div class="keyword">2018-2021:</div>
+            <div class="string">University of Limpopo - BNursing (Completed)</div>
+        </div>
+
+        <!-- Skills Tab -->
+        <div id="skills" class="code-block">
+            <span class="comment">/* Technical Skills */</span>
+            <div class="json-key">"Frontend":</div>
+            <div class="json-value">["React", "JavaScript", "TypeScript", "HTML/CSS"]</div>
+            
+            <div class="json-key">"Backend":</div>
+            <div class="json-value">["Node.js", "Flask", "REST APIs"]</div>
+            
+            <div class="json-key">"DevOps":</div>
+            <div class="json-value">["Docker", "Bash", "GitHub Actions"]</div>
+            
+            <div class="json-key">"Design":</div>
+            <div class="json-value">["Graphic Design", "UI/UX Principles"]</div>
+        </div>
+    </div>
+
+    <div class="terminal">
+        <div class="terminal-header">TERMINAL</div>
+        <div>$ Contact Quick Access:</div>
+        <div>├─ Email: terminalkarabo@gmail.com</div>
+        <div>├─ Phone: +27848857295</div>
+        <div>└─ GitHub: [your github handle]</div>
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            // Hide all tabs and content
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.code-block').forEach(content => content.classList.remove('active'));
+            
+            // Show selected tab and content
+            document.querySelectorAll(`[onclick="showTab('${tabName}')"]`).forEach(tab => tab.classList.add('active'));
+            document.getElementById(tabName).classList.add('active');
+        }
+    </script>
+</body>
+</html>
