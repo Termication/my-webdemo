@@ -22,3 +22,14 @@ A Visual Studio Code inspired portfolio website showcasing professional informat
 ```bash
 git clone https://github.com/Termication/my-webdemo.git
 ```
+
+# AUTHORS
+
+<details>
+    <summary>Innocent Karabo Mohlala</summary>
+    <ul>
+    <li><a href="https://www.github.com/termication">Github</a></li>
+    <li><a href="https://www.twitter.com/Termication_">Twitter</a></li>
+    <li><a href="mailto:terminalkarabo@gmail.com">e-mail</a></li>
+    </ul>
+</details>
