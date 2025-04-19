@@ -23,6 +23,7 @@
             <div class="tab active" onclick="showTab('about')">about.txt</div>
             <div class="tab" onclick="showTab('education')">education.md</div>
             <div class="tab" onclick="showTab('skills')">skills.json</div>
+            <div class="tab" onclick="showTab('projects')">projects.json</div>
             <div class="tab" onclick="showTab('profile')">profile.jpg</div>
         </div>
 
@@ -119,6 +120,31 @@
                 <div class="comment">// Profile Picture</div>
             </div>
         </div>
+
+        <!-- Add Projects Section -->
+        <div id="projects" class="code-block">
+            <span class="comment">// Recent Projects</span>
+            <div class="project-list">
+                <div class="project-item">
+                    <div class="json-key">"FEELTUNE":</div>
+                    <div class="json-value">{</div>
+                    <div class="json-key">"title": <span class="string">"Full-Stack Web Application"</span>,</div>
+                    <div class="json-key">"tech": <span class="json-value">["Flask", "JavaScript", "HTML", "CSS" "Sqlite"]</span>,</div>
+                    <div class="json-key">"description": <span class="string">"web application that generates personalized playlists based on users' moods. By analyzing input (via dropdown, text, or text analysis), it curates playlists using integrations with music APIs like Spotify"</span></div>
+                    <div class="json-value">}</div>
+                </div>
+
+                <div class="project-item">
+                    <div class="json-key">"Vaccinated":</div>
+                    <div class="json-value">{</div>
+                    <div class="json-key">"title": <span class="string">"Full-Stack Web Application"</span>,</div>
+                    <div class="json-key">"tech": <span class="json-value">["Flask", "JavaScript", "HTML", "CSS"]</span>,</div>
+                    <div class="json-key">"description": <span class="string">"A web application to track and manage vaccination/immunezation schedules for newborns, with reminders and progress tracking."</span></div>
+                    <div class="json-value">}</div>
+                </div>
+            </div>
+        </div>
+
 
         <div class="terminal">
             <div class="terminal-header">TERMINAL</div>
