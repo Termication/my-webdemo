@@ -117,3 +117,18 @@ body {
     padding-left: 20px;
     border-left: 2px solid var(--vscode-blue);
 }
+
+.json-link {
+    color: var(--vscode-blue);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.json-link:hover {
+    text-decoration: underline;
+    filter: brightness(1.2);
+}
+
+.project-item a {
+    pointer-events: all;
+}
