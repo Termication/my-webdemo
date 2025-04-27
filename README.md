@@ -23,6 +23,8 @@ A Visual Studio Code inspired portfolio website showcasing professional informat
 git clone https://github.com/Termication/my-webdemo.git
 ```
 
+2. Open html file with the browser
+
 # AUTHORS
 
 <details>
