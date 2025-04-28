@@ -1,5 +1,8 @@
 # 💻 VS Code Themed Portfolio Website
 
+[![Flask](https://img.shields.io/badge/Flask-2.0.3-important)](https://flask.palletsprojects.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ![Portfolio Preview](screenshot/screenshot.png)
 
 
