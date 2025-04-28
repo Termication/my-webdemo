@@ -135,3 +135,24 @@ body {
 .project-item a {
     pointer-events: all;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--vscode-sidebar);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--vscode-tab);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--vscode-blue);
+}
