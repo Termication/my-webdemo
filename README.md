@@ -24,7 +24,14 @@ A Visual Studio Code inspired portfolio website showcasing professional informat
 git clone https://github.com/Termication/my-webdemo.git
 ```
 
-2. Open html file with the browser
+2. Open HTML file with browser:
+
+```bash
+# For default browser
+start index.html  # Windows
+xdg-open index.html  # Linux
+open index.html  # macOS
+```
 
 # AUTHORS
 
