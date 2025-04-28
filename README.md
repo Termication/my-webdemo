@@ -1,6 +1,9 @@
 # 💻 VS Code Themed Portfolio Website
 
-![Portfolio Preview](https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Karabo%20Mohlala%20-%20VS%20Code%20Portfolio%20%E2%80%94%20Mozilla%20Firefox%202025_04_28%2018_45_41%20(3).png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-04-27T16%3A48%3A32.091Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2Ffe6de2a84c874095%2FKarabo%20Mohlala%20-%20VS%20Code%20Portfolio%20%E2%80%94%20Mozilla%20Firefox%202025_04_28%2018_45_41%20(3).png%3FExpires%3D1840466912%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DbpR6m1rhy~Gh-1loA7dHePMfWpVCrItDyUoFGIjOb9mYVJjzNZpdjfffrlUo~BOaNJkzoHdTok2WS9UsgJpuSPZ7nQVDWAe2LI0nQEX7byhSFW3jTWhDhpglhHv7tXSuVPo56Fieb2q7nirGdkJyzLF-ODsHkVQeJgBUS5hOAIc1oCmcX0q~V0mrOk2EiedYFfro7COshSX7lIJZUOCpVdZST-WkSTgsUeuBrf4oBj5qDaiSfnZqHSljgAZg2WdggsXjVAyDKNalnW3wVjf06hrphgOXlUJCyjtRw~9D1-anp56G96ztyiXRfdwuREmcyoH3BH8kJVqtOPOS2QvWvQ__%22%7D)
+[![Flask](https://img.shields.io/badge/Flask-2.0.3-important)](https://flask.palletsprojects.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+![Portfolio Preview](screenshot/screenshot.png)
 
 
 A Visual Studio Code inspired portfolio website showcasing professional information in a developer-friendly interface. Built with pure HTML and CSS. 🚀
