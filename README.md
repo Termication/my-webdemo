@@ -24,6 +24,7 @@ A Visual Studio Code inspired portfolio website showcasing professional informat
 ## ⚙️ Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/Termication/my-webdemo.git
 ```
