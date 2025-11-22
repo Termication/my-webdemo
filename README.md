@@ -5,7 +5,6 @@
 
 ![Portfolio Preview](screenshot/screenshot.png)
 
-
 A Visual Studio Code inspired portfolio website showcasing professional information in a developer-friendly interface. Built with pure HTML and CSS. 🚀
 
 ## 🎯 Features
@@ -37,6 +36,7 @@ start index.html  # Windows
 xdg-open index.html  # Linux
 open index.html  # macOS
 ```
+
 
 # AUTHORS
 
