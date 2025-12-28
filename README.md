@@ -37,7 +37,6 @@ xdg-open index.html  # Linux
 open index.html  # macOS
 ```
 
-
 # AUTHORS
 
 <details>
